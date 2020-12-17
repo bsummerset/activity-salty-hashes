@@ -1,7 +1,6 @@
 {
   "name": "salty-hashes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3"
-  }
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsummerset/activity-salty-hashes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsummerset/activity-salty-hashes/issues"
+  },
+  "homepage": "https://github.com/bsummerset/activity-salty-hashes#readme",
+  "description": ""
 }
